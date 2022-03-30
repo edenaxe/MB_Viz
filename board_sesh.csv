@@ -3,10 +3,10 @@ Quart Poulet,V10,1,start,3,5,7,7
 Quart Poulet,V10,2,start,2,5,4,11
 Quart Poulet,V10,3,,7,7,4,14
 Quart Poulet,V10,4,,4,11,3,15
-Quart Poulet,V10,5,,4,14,6,18
-Quart Poulet,V10,6,,3,15,6,18
-Real Pigeon Wings,V10,1,,10,3,9,5
-Real Pigeon Wings,V10,2,,5,5,5,9
+Quart Poulet,V10,5,end,4,14,6,18
+Quart Poulet,V10,6,end,3,15,6,18
+Real Pigeon Wings,V10,1,start,10,3,9,5
+Real Pigeon Wings,V10,2,start,5,5,5,9
 Real Pigeon Wings,V10,3,,9,5,10,12
 Real Pigeon Wings,V10,4,,5,9,5,15
 Real Pigeon Wings,V10,5,end,10,12,4,18
