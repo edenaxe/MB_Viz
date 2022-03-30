@@ -3,9 +3,8 @@
 library(tidyverse)
 
 board_sesh <- read.csv("/Users/edenaxelrad/Desktop/board_sesh.csv", encoding="UTF-8") %>%
-  select(1:7) %>%
-  mutate(length = round(sqrt(((to.x-from.x)^2)+((to.y-from.y)^2)), digits = 2))
-
+  select(1:8) %>%
+  mutate(distance = round(sqrt(((to.x-from.x)^2)+((to.y-from.y)^2)), digits = 2))
 
 # ggplot ---------------------------------
 
@@ -18,16 +17,16 @@ board_sesh %>%
   geom_segment(aes(x = from.x, xend = to.x,
                    y = from.y, yend = to.y,
                    color = climb,
-                   size = length), 
+                   size = distance), 
                alpha = 0.7) +
   # Use the Wes Anderson Darjeeling 1 color palette for the climbs
   scale_color_manual(values = wesanderson::wes_palette("Darjeeling1")) +
   # Add stars to indicate holds that are used
-  geom_point(aes(x = from.x, y = from.y, color = climb), shape = 8, size = 6, alpha = 0.7) +
-  geom_point(aes(x = to.x, y = to.y, color = climb), shape = 8, size = 6, alpha = 0.7) +
-  # Add points to indicate holds that are used
-  geom_point(aes(x = from.x, y = from.y, color = climb), size = 1) +
-  geom_point(aes(x = to.x, y = to.y, color = climb), size = 1) +
+  geom_point(aes(x = from.x, y = from.y, color = climb), size = 6, alpha = 0.8) +
+  geom_point(aes(x = to.x, y = to.y, color = climb), size = 6, alpha = 0.8) +
+  geom_point(data = subset(board_sesh, hold == "start"),
+             aes(x = from.x, y = from.y, color = climb), shape = 1, size = 8) +
+  scale_shape(solid = FALSE) +
   # Show x-axis as alphabet
   scale_x_continuous(limits = c(1, 11),
                      breaks = (1:11),
