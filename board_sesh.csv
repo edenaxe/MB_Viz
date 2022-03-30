@@ -1,34 +1,34 @@
-﻿climb,grade,move,from.x,from.y,to.x,to.y
-Quart Poulet,V10,1,3,5,7,7
-Quart Poulet,V10,2,2,5,4,11
-Quart Poulet,V10,3,7,7,4,14
-Quart Poulet,V10,4,4,11,3,15
-Quart Poulet,V10,5,4,14,6,18
-Quart Poulet,V10,6,3,15,6,18
-Real Pigeon Wings,V10,1,10,3,9,5
-Real Pigeon Wings,V10,2,5,5,5,9
-Real Pigeon Wings,V10,3,9,5,10,12
-Real Pigeon Wings,V10,4,5,9,5,15
-Real Pigeon Wings,V10,5,10,12,4,18
-Real Pigeon Wings,V10,6,5,15,4,18
-Recyclops,V10,1,7,5,7,9
-Recyclops,V10,2,2,5,8,9
-Recyclops,V10,3,7,9,11,12
-Recyclops,V10,4,8,9,7,9
-Recyclops,V10,5,11,12,10,15
-Recyclops,V10,6,7,9,4,16
-Recyclops,V10,7,10,15,3,18
-Recyclops,V10,8,4,16,3,18
-Premium Woods RH,V10,1,10,5,8,7
-Premium Woods RH,V10,2,5,5,5,9
-Premium Woods RH,V10,3,8,7,10,12
-Premium Woods RH,V10,4,5,9,5,15
-Premium Woods RH,V10,5,10,12,9,18
-Premium Woods RH,V10,6,5,15,9,18
-Start on Whites,V9,1,10,4,8,7
-Start on Whites,V9,2,6,2,4,9
-Start on Whites,V9,3,8,7,4,9
-Start on Whites,V9,4,4,9,4,13
-Start on Whites,V9,5,4,9,9,14
-Start on Whites,V9,6,4,13,7,18
-Start on Whites,V9,7,9,14,11,18
+﻿climb,grade,move,hold,from.x,from.y,to.x,to.y
+Quart Poulet,V10,1,start,3,5,7,7
+Quart Poulet,V10,2,start,2,5,4,11
+Quart Poulet,V10,3,,7,7,4,14
+Quart Poulet,V10,4,,4,11,3,15
+Quart Poulet,V10,5,,4,14,6,18
+Quart Poulet,V10,6,,3,15,6,18
+Real Pigeon Wings,V10,1,,10,3,9,5
+Real Pigeon Wings,V10,2,,5,5,5,9
+Real Pigeon Wings,V10,3,,9,5,10,12
+Real Pigeon Wings,V10,4,,5,9,5,15
+Real Pigeon Wings,V10,5,end,10,12,4,18
+Real Pigeon Wings,V10,6,end,5,15,4,18
+Recyclops,V10,1,start,7,5,7,9
+Recyclops,V10,2,start,2,5,8,9
+Recyclops,V10,3,,7,9,11,12
+Recyclops,V10,4,,8,9,7,9
+Recyclops,V10,5,,11,12,10,15
+Recyclops,V10,6,,7,9,4,16
+Recyclops,V10,7,end,10,15,3,18
+Recyclops,V10,8,end,4,16,3,18
+Premium Woods RH,V10,1,start,10,5,8,7
+Premium Woods RH,V10,2,start,5,5,5,9
+Premium Woods RH,V10,3,,8,7,10,12
+Premium Woods RH,V10,4,,5,9,5,15
+Premium Woods RH,V10,5,end,10,12,9,18
+Premium Woods RH,V10,6,end,5,15,9,18
+Start on Whites,V9,1,start,10,4,8,7
+Start on Whites,V9,2,start,6,2,4,9
+Start on Whites,V9,3,,8,7,4,9
+Start on Whites,V9,4,,4,9,4,13
+Start on Whites,V9,5,,4,9,9,14
+Start on Whites,V9,6,end,4,13,7,18
+Start on Whites,V9,7,end,9,14,11,18
