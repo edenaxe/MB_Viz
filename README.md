@@ -1,4 +1,4 @@
 # MB_Viz
-MoonBoard session visualization using ggplot2
+An abstract/artsy MoonBoard session visualization using ggplot2
 
 <br>
