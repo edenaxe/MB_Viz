@@ -31,7 +31,6 @@ board_sesh %>%
              aes(x = from.x, y = from.y, color = climb), shape = 1, size = 8) +
   geom_point(data = subset(board_sesh, hold == "end"),
              aes(x = to.x, y = to.y, color = climb), shape = 1, size = 8) +
-  scale_shape(solid = FALSE) +
   # Show x-axis as alphabet
   scale_x_continuous(limits = c(1, 11),
                      breaks = (1:11),
